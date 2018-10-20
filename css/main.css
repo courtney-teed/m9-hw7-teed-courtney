@@ -63,13 +63,8 @@ a, a:hover {
 	text-decoration: none;
 }
 
-nav ul li a.reg-nav:hover, nav ul li a.find-location:hover {
+nav ul li a.reg-nav:hover {
 	color: #ffffff;
-	transition: all .3s ease-in-out; 
-}
-
-nav ul li a.order-now:hover {
-	color: #000000;
 	transition: all .3s ease-in-out; 
 }
 
