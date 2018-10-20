@@ -59,7 +59,7 @@ ul li {
 	list-style-type: none;
 }
 
-a, a:hover {
+a, a:link, a:hover, a:active, a:visited {
 	text-decoration: none;
 }
 
@@ -78,11 +78,19 @@ nav ul li a.reg-nav:hover {
 	color: #fc713a;
 }
 
+.reg-nav:visited {
+	color: #fc713a;
+}
+
 .find-location {
 	background-color: #c1e40e;
 	padding: 20px 20px 15px 20px;
 	-webkit-border-radius: 0px 0px 15px 15px;
 	border-radius: 0px 0px 15px 15px;
+	color: #000000;
+}
+
+.find-location:visited {
 	color: #000000;
 }
 
@@ -92,6 +100,10 @@ nav ul li a.reg-nav:hover {
 	-webkit-border-radius: 0px 0px 15px 15px;
 	border-radius: 0px 0px 15px 15px;
 	margin-right: 90px;
+	color: #ffffff;
+}
+
+.order-now:visited {
 	color: #ffffff;
 }
 
