@@ -7,7 +7,7 @@ function changeColor() {
 };
 
 function showDiv() {
-	this.nextElementSibling.classList.add('show-div');
+	this.nextElementSibling.classList.toggle('show-div');
 };
 
 for(i=0; i < link.length; i++) {
