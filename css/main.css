@@ -100,6 +100,12 @@ nav ul li a.order-now:hover {
 	color: #ffffff;
 }
 
+a.change-color {
+	background-color: #656565;
+	color: #ffffff;
+	transition: all .3s ease-in-out; 
+}
+
 h1, h2, h3 {
 	font-weight: lighter;
 }
