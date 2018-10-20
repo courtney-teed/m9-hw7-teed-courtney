@@ -113,6 +113,17 @@ a.change-color {
 	transition: all .3s ease-in-out; 
 }
 
+.hide-div {
+  display: none;
+}
+
+.show-div {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 200px;
+}
+
 h1, h2, h3 {
 	font-weight: lighter;
 }
