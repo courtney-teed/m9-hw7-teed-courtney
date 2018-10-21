@@ -110,6 +110,7 @@ a.change-color {
 .hide-div {
   display: flex;
   flex-direction: column;
+  width: 0;
   height: 0;
   overflow: hidden;
   transition: height 1s ease-in-out;
