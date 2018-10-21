@@ -48,7 +48,6 @@ header {
 nav {
 	display: none;
 	padding-top: 20px;
-	margin-left: 50px;
 }
 
 nav ul li {
@@ -95,7 +94,6 @@ nav ul li a.reg-nav:hover {
 	padding: 20px 20px 15px 20px;
 	-webkit-border-radius: 0px 0px 15px 15px;
 	border-radius: 0px 0px 15px 15px;
-	margin-right: 90px;
 	color: #ffffff;
 }
 
@@ -110,15 +108,17 @@ a.change-color {
 }
 
 .hide-div {
-  display: none;
+  height: 0;
+  overflow: hidden;
+  transition: height 1s
 }
 
 .show-div {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 5px;
-  padding: 0 100px 0 20px;
+  height: 100px;
+  transition: height 1s
 }
 
 h1, h2, h3 {
