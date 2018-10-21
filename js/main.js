@@ -20,3 +20,10 @@ for(i=0; i < link.length; i++) {
 	link[4].addEventListener('mouseleave', changeColor);
 	link[4].addEventListener('click', showDiv);
 };
+
+
+var section = document.getElementsByTagName('section');
+
+function hoverOpacity() {
+	this.classList.toggle('opacity-change');
+};
