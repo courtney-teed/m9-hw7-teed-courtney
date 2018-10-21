@@ -90,10 +90,6 @@ nav ul li a.reg-nav:hover {
 	color: #000000;
 }
 
-.find-location:visited {
-	color: #000000;
-}
-
 .order-now {
 	background-color: #fc713a;
 	padding: 20px 20px 15px 20px;
@@ -118,10 +114,11 @@ a.change-color {
 }
 
 .show-div {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
-  width: 100px;
-  height: 200px;
+  flex-wrap: wrap;
+  width: 5px;
+  padding: 0 100px 0 20px;
 }
 
 h1, h2, h3 {
