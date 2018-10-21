@@ -499,11 +499,9 @@ footer ul li {
 	.grow1:hover { 
 		transform: scale(1.1);
 	}
-	.grow2 { 
-		transition: all .4s ease-in-out; 
-	}
-	.grow2:hover { 
-		transform: scale(0.97);
+	.opacity-change {
+		opacity: 0.7;
+		transition: opacity 0.5s ease-in-out;
 	}
 	.grow3 { 
 		transition: all .4s ease-in-out; 
