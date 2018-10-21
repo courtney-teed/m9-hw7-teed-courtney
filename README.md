@@ -5,4 +5,4 @@ JavaScript
 
 The only resource used while completing this homework was the module 8 class lecture.
 
-I had trouble formatting the dropdown nav content but I figured out everything except a small "jerky" transition moment after the initial user click on the button. 
+I had trouble formatting the dropdown nav content, including an issue with a "jerky" transition after the initial user click on the button. All issues have been fixed.
