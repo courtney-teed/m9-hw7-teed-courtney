@@ -27,3 +27,8 @@ var section = document.getElementsByTagName('section');
 function hoverOpacity() {
 	this.classList.toggle('opacity-change');
 };
+
+for(i=0; i < section.length; i++) {
+	section[i].addEventListener('mouseenter', hoverOpacity);
+	section[i].addEventListener('mouseleave', hoverOpacity);
+};
